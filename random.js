@@ -5,7 +5,18 @@ var namespace = "http://www.w3.org/2000/svg"
 // You need to use at least 3 different types of shape.
 // Remember, for the shapes to show up on the canvas, you'll need to CALL the function.
 function createFirstScene() {
-    
+    makeCircle(125, 50, 22, "black", 1.0)
+    makeEllipse(125, 49, 3, 5, "red", 0.2)
+    makeRect(130, 45, 10, 10, "red", 0.2)
+    makeRect(110, 45, 10, 10, "red", 0.2)
+    makeEllipse(125, 65, 13, 5, "red", 0.2)
+    makeCircle(125, 50, 20, "red", 0.5)
+    makeCircle(50, 50, 22, "black", 1.0)
+makeEllipse(50, 49, 3, 5, "pink", 0.5)
+makeRect(35, 45, 10, 10, "pink", 0.5)
+makeRect(55, 45, 10, 10, "pink", 0.5)
+makeEllipse(50, 65, 13, 5, "pink", 0.5)
+    makeCircle(50, 50, 20, "pink", 0.9)
 }
 
 
@@ -13,7 +24,19 @@ function createFirstScene() {
 // You need to use at least 3 different types of shape.
 // Remember, for the shapes to show up on the canvas, you'll need to CALL the function.
 function createSecondScene() {
-    
+    makeCircle(125, 50, 22, "black", 1.0)
+    makeEllipse(125, 49, 3, 3, "purple", 0.2)
+    makeRect(130, 45, 10, 10, "purple", 0.2)
+    makeRect(110, 45, 10, 10, "purple", 0.2)
+    makeEllipse(125, 65, 13, 5, "purple", 0.2)
+    makeCircle(125, 50, 20, "purple", 0.5)
+    makeEllipse(125, 40, 13, 5, "black", 1.0)
+    makeCircle(50, 50, 22, "black", 1.0)
+    makeEllipse(50, 49, 3, 3, "purple", 0.2)
+    makeRect(35, 45, 10, 10, "purple", 0.2)
+    makeRect(55, 45, 10, 10, "purple", 0.2)
+    makeEllipse(50, 65, 13, 5, "purple", 0.2)
+    makeCircle(50, 50, 20, "purple", 0.5)
 }
 
 
@@ -21,7 +44,7 @@ function createSecondScene() {
 // You need to use at least 3 different types of shape.
 // Remember, for the shapes to show up on the canvas, you'll need to CALL the function.
 function createThirdScene() {
-    
+    makeImage("data.whicdn.com/images/46433329/original.gif", 152, 10, 50, 50, 0.5)
 }
 
 
@@ -31,22 +54,15 @@ function createThirdScene() {
 // FILL IN THIS FUNCTION!
 // This function is called whenever you press the "Go!" button.
 function createRandomScene() {
-    // Generate a random number between 0 and 1, and store it in a variable.
-    
-    // If the number is less than 0.33, call the function to create your first scene.
-    
-    
-    
-    // Else, if the number is less than 0.67, call the function to create your second scene.
-    
-    
-    
-    // Else, call the function to create your third scene.
-    
-    
-    
+    var numb = Math.random()
+    if(numb < 0.33){
+    createFirstScene()
+    }else if(numb > 0.67){
+    createSecondScene()
+    }else{
+    createThirdScene()
 }
-
+}
 
 
 // DO NOT EDIT ANYTHING BELOW THIS LINE!
