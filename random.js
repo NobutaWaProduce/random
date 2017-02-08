@@ -4,15 +4,15 @@ function createFirstScene() {
     makeCircle(125, 50, 22, "black", 1.0)
     makeCircle(125, 50, 20, "#cc0000", 1.0)
     makeEllipse(125, 49, 3, 5, "#ff8080", 1.0)
-    makeRect(130, 45, 10, 10, "#ff8080", 1.0)
-    makeRect(110, 45, 10, 10, "#ff8080", 1.0)
+    makeRect(130, 45, 10, 8, "#ff8080", 1.0)
+    makeRect(110, 45, 10, 8, "#ff8080", 1.0)
     makeEllipse(125, 65, 13, 5, "#ffcccc", 1.0)
     makeEllipse(125, 35, 16, 5, "800000", 0.5)
     makeCircle(50, 50, 22, "black", 1.0)
     makeCircle(50, 50, 20, "#ffb3bf", 1.0)
 makeEllipse(50, 49, 3, 5, "#ffb3d7", 1.0)
-makeRect(35, 45, 10, 10, "#ffb3d7", 1.0)
-makeRect(55, 45, 10, 10, "#ffb3d7", 1.0)
+makeRect(35, 45,10, 8, "#ffb3d7", 1.0)
+makeRect(55, 45, 10, 8, "#ffb3d7", 1.0)
 makeEllipse(50, 65, 13, 5, "#ffe6f2", 1.0)
 makeEllipse(50, 35, 16, 5, "#ffcce2", 0.5)
 }
@@ -21,25 +21,35 @@ function createSecondScene() {
     makeCircle(125, 50, 22, "black", 1.0)
     makeCircle(125, 50, 20, "#d11aff", 1.0)
     makeEllipse(125, 49, 3, 3, "#e600e6", 1.0)
-    makeRect(130, 45, 10, 10, "#f5ccff", 1.0)
-    makeRect(110, 45, 10, 10, "#f5ccff", 1.0)
-    makeEllipse(125, 65, 13, 5, "#f9e6ff", 1.0)
-    makeEllipse(125, 37, 16, 8, "#330033", 1.0)
+    makeRect(130, 45, 8, 10, "#f5ccff", 1.0)
+    makeRect(110, 45, 8, 10, "#f5ccff", 1.0)
+    makeEllipse(125, 65, 13, 9, "#f9e6ff", 1.0)
+    makeEllipse(125, 37, 16, 9, "#330033", 1.0)
     makeCircle(50, 50, 22, "black", 1.0)
     makeCircle(50, 50, 20, "#d11aff", 1.0)
-    makeEllipse(50, 37, 16, 8, "#330033", 1.0)
+    makeEllipse(50, 37, 16, 9, "#330033", 1.0)
     makeEllipse(50, 49, 3, 3, "#e600e6", 1.0)
-    makeRect(35, 45, 10, 10, "#f5ccff", 1.0)
-    makeRect(55, 45, 10, 10, "#f5ccff", 1.0)
-    makeEllipse(50, 65, 13, 5, "#f9e6ff", 1.0)
+    makeRect(35, 45, 8, 10, "#f5ccff", 1.0)
+    makeRect(55, 45, 8, 10, "#f5ccff", 1.0)
+    makeEllipse(50, 65, 13, 9, "#f9e6ff", 1.0)
 }
 
-
-// Fill in this function so that it draws something using SVG shapes!
-// You need to use at least 3 different types of shape.
-// Remember, for the shapes to show up on the canvas, you'll need to CALL the function.
 function createThirdScene() {
-    makeImage("data.whicdn.com/images/46433329/original.gif", 152, 10, 50, 50, 0.5)
+makeCircle(125, 50, 22, "black", 1.0)
+makeCircle(125, 50, 20, "#3333ff", 1.0)
+makeEllipse(125, 49, 2, 2, "#b3b3ff", 1.0)
+makeRect(130, 45, 12, 10, "#b3b3ff", 1.0)
+makeRect(108, 45, 12, 10, "#b3b3ff", 1.0)
+makeEllipse(125, 65, 13, 5, "#b3b3ff", 1.0)
+makeEllipse(125, 35, 14, 5, "#b3b3ff", 1.0)
+makeCircle(125, 65, 5, 5, "#ffffff", 1.0)
+makeCircle(50, 50, 22, "black", 1.0)
+makeCircle(50, 50, 20, "#3333ff", 1.0)
+makeEllipse(50, 49, 2, 2, "#b3b3ff", 1.0)
+makeEllipse(50, 35, 14, 5, "#b3b3ff", 1.0)
+makeRect(35, 45, 12, 10, "#b3b3ff", 1.0)
+makeRect(55, 45, 12, 10, "#b3b3ff", 1.0)
+makeEllipse(50, 65, 13, 5, "#b3b3ff", 1.0)
 }
 
 
