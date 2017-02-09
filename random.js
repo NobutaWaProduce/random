@@ -1,6 +1,7 @@
 var namespace = "http://www.w3.org/2000/svg"
 
 function createFirstScene() {
+    makeImage("https://myanimelist.cdn-dena.com/images/characters/4/290843.jpg", 0, 0, 200, 100, 1.0)
     makeCircle(125, 50, 22, "black", 1.0)
     makeCircle(125, 50, 20, "#cc0000", 1.0)
     makeEllipse(125, 49, 3, 5, "#ff8080", 1.0)
@@ -18,6 +19,7 @@ makeEllipse(50, 35, 16, 5, "#ffcce2", 0.5)
 }
 
 function createSecondScene() {
+    makeImage("https://myanimelist.cdn-dena.com/images/characters/11/280388.jpg", 0, 0, 200, 100, 1.0)
     makeCircle(125, 50, 22, "black", 1.0)
     makeCircle(125, 50, 20, "#d11aff", 1.0)
     makeEllipse(125, 49, 3, 3, "#e600e6", 1.0)
@@ -35,6 +37,7 @@ function createSecondScene() {
 }
 
 function createThirdScene() {
+    makeImage("https://myanimelist.cdn-dena.com/images/characters/4/280387.jpg", 0, 0, 200, 100, 1.0)
 makeCircle(125, 50, 22, "black", 1.0)
 makeCircle(125, 50, 20, "#3333ff", 1.0)
 makeEllipse(125, 49, 2, 2, "#b3b3ff", 1.0)
@@ -42,7 +45,7 @@ makeRect(130, 45, 12, 10, "#b3b3ff", 1.0)
 makeRect(108, 45, 12, 10, "#b3b3ff", 1.0)
 makeEllipse(125, 65, 13, 5, "#b3b3ff", 1.0)
 makeEllipse(125, 35, 14, 5, "#b3b3ff", 1.0)
-makeCircle(125, 65, 5, 5, "#ffffff", 1.0)
+makeCircle(125, 65, 5, "#ffffff", 1.0)
 makeCircle(50, 50, 22, "black", 1.0)
 makeCircle(50, 50, 20, "#3333ff", 1.0)
 makeEllipse(50, 49, 2, 2, "#b3b3ff", 1.0)
@@ -50,6 +53,7 @@ makeEllipse(50, 35, 14, 5, "#b3b3ff", 1.0)
 makeRect(35, 45, 12, 10, "#b3b3ff", 1.0)
 makeRect(55, 45, 12, 10, "#b3b3ff", 1.0)
 makeEllipse(50, 65, 13, 5, "#b3b3ff", 1.0)
+makeCircle(50, 65, 5, "#ffffff", 1.0)
 }
 
 
